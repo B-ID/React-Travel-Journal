@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgb(252, 94, 94);
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+}

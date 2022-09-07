@@ -1,0 +1,73 @@
+.travel__card {
+    /* border: 1px solid black; */
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+    width: min(95%, 70rem);
+    gap: 1rem;
+}
+
+.travel__card img {
+    height: 100%;
+    /* width: 100%; */
+    border-radius: .5rem;
+    transition: all 300ms ease;
+}
+.travel__card img:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    flex-shrink: 0;
+}
+
+@media (min-width: 375px) {
+    .image {
+        height: 35rem;
+        margin-bottom: .5rem;
+    }
+}
+
+@media (min-width: 478px) {
+    .image {
+        height: 40rem;
+    }
+}
+
+.map__link {
+    color: grey;
+    display: block;
+}
+
+.travel__details {
+    /* border: 1px solid black; */
+    padding: .5rem;
+}
+
+.location__icon {
+    color: rgb(252, 94, 94);
+    font-size: 1.2rem;
+}
+
+.travel__details span {
+    display: flex;
+    align-items: center;
+}
+
+.travel__details h1 {
+    margin-bottom: 1.25rem;
+}
+
+.travel__details p {
+    margin-bottom: .25rem;
+}
+
+@media (min-width: 768px) {
+    .image {
+        height: 300px;
+        width: 215px;
+    }
+
+    .travel__card {
+        display: flex;
+    }
+}
